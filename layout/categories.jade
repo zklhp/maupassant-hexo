@@ -1,0 +1,12 @@
+extends base
+
+block title
+     title= __('categories') + ' | ' + config.title
+block content
+  .categories-search-form
+    input(id='local-search-input' placeholder='Search' type='text' name='q' results='0')
+    div#local-search-result
+  .categories
+    h2= __('categories')
+    != list_categories({show_count: theme.show_category_count})
+  include _partial/paginator.jade
