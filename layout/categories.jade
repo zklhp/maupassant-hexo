@@ -9,4 +9,10 @@ block content
   .categories
     h2= __('categories')
     != list_categories({show_count: theme.show_category_count})
+  .categories-links
+    h2= __('blogroll')
+    - for (var i in theme.links)
+      ul
+      a(href='#{theme.links[i].url}' title='#{theme.links[i].title}' target='_blank') #{theme.links[i].title}
+
   include _partial/paginator.jade
