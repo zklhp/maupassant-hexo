@@ -13,6 +13,6 @@ block content
     h2= __('blogroll')
     - for (var i in theme.links)
       ul
-      a(href='#{theme.links[i].url}' title='#{theme.links[i].title}' target='_blank') #{theme.links[i].title}
+      a(href=theme.links[i].url title=theme.links[i].title target='_blank') #{theme.links[i].title}
 
-  include _partial/paginator.jade
+  include _partial/paginator.pug
