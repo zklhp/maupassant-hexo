@@ -349,6 +349,16 @@ div {
             }
         }
     }
+    .post-copyright {
+        margin: 4em 0 0;
+	padding: 0.5em 1em;
+	border-left: 3px solid #ff1700;
+	background-color: #f9f9f9;
+	list-style: none;
+    }
+    .post-copyright li {
+	line-height: 2;
+    }
     .tags {
         padding-bottom: 1em;
         a {
