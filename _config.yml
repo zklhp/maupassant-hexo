@@ -42,7 +42,7 @@ canvas_nest:
   count: ## Quantity of lines, e.g. "150"
 donate:
   enable: true ## If you want to show the donate button after each post, please set the value to true and fill the following items according to your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
-  github: ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
+  github: https://github.com/zklhp/ ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
   alipay_qr: /img/My-AliPayQR.png ## Path of Alipay QRcode image, e.g. /img/AliPayQR.png
   wechat_qr: /img/My-WeChatQR.png ## Path of Wechat QRcode image, e.g. /img/WeChatQR.png
   btc_qr: ## Path of Bitcoin QRcode image, e.g. /img/BTCQR.png
@@ -111,7 +111,7 @@ links:
   #   url: http://tian1.me/
   - title: 简单可依赖
     url: https://www.tiexo.cn/
-  - title: Jet's Notes
+  - title: Jet’s Notes
     url: http://jetyu.me/
   - title: Raintone
     url: http://login926.top/
@@ -131,6 +131,10 @@ links:
     url: http://googlo.me/
   - title: MacPlay
     url: https://macplay.github.io/
+  - title: 深度识医
+    url: https://lengyueyang.github.io/
+  - title: SDF公众Unix服务器中文站
+    url: http://sdf-cn.org/
 
 # timeline:
 #   - num: 1
@@ -148,3 +152,8 @@ css: css
 
 # Theme version
 version: 0.0.0
+
+post_copyright:
+  enable: false
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/deed.zh
