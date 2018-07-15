@@ -59,8 +59,8 @@ menu:
   - page: categories
     directory: categories/
     icon: fa-folder
-  - page: Planet
-    directory: planet-emacs-cn/
+  - page: 国内镜像站
+    directory: https://chriszheng.gitee.io/
     icon: fa-user
   - page: 学术写作指要
     directory: essentials-of-academic-writing/
@@ -91,6 +91,10 @@ links:
     url: https://chriszheng.science/
   - title: OSChina上的镜像
     url: http://chriszheng.oschina.io/
+  - title: OSChina上的镜像
+    url: http://chriszheng.gitee.io/
+  - title: "@chriszheng@mastodon.sdf.org"
+    url: https://mastodon.sdf.org/@chriszheng
   - title: Emacsist
     url: http://emacsist.com/
   - title: 璀璨星空
@@ -107,6 +111,8 @@ links:
     url: http://kelvinh.github.io/
   - title: Emacs China
     url: http://emacs-china.org/
+  - title: emacs-china/blogroll
+    url: https://github.com/emacs-china/blogroll
   # - title: 笔良文昌
   #   url: http://tian1.me/
   - title: 简单可依赖
@@ -133,6 +139,10 @@ links:
     url: https://macplay.github.io/
   - title: 深度识医
     url: https://lengyueyang.github.io/
+  - title: (power up)
+    url: http://kevinjiang.info/
+  - title: QQ群友「七月流火」的Blog
+    url: https://www.jianshu.com/u/390b177189f0
   - title: SDF公众Unix服务器中文站
     url: http://sdf-cn.org/
 

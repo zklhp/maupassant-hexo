@@ -24,3 +24,5 @@ head
         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
         ga('create','#{theme.google_analytics}','auto');ga('send','pageview');
     script(type='text/javascript', src='//cdn.bootcss.com/jquery/3.2.1/jquery.min.js')
+    if is_post() && config.generator_amp
+      link(rel="amphtml", href='./amp/index.html')
