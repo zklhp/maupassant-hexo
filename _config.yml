@@ -46,7 +46,6 @@ canvas_nest:
   zIndex: ## The z-index property of the background, e.g. "-1"
   count: ## Quantity of lines, e.g. "150"
 donate:
-
   enable: true ## If you want to show the donate button after each post, please set the value to true and fill the following items according to your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
   github: https://github.com/zklhp/ ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
   alipay_qr: /img/My-AliPayQR.png ## Path of Alipay QRcode image, e.g. /img/AliPayQR.png
@@ -58,6 +57,8 @@ post_copyright:
   enable: false ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
   author: ## Your author name, e.g. tufu9441
   copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/deed.zh
 
 
 menu:
@@ -76,9 +77,6 @@ menu:
   - page: 学术写作指要
     directory: essentials-of-academic-writing/
     icon: fa-book
-  - page: Emacs-w64
-    directory: emacs-w64/
-    icon: fa-check
   - page: rss
     directory: atom.xml
     icon: fa-rss
@@ -95,17 +93,20 @@ links:
   - title: 支持小时收费的vultr (含推广)
     url: http://www.vultr.com/?ref=7184966
   - title: 帖子的md文件
-    url: https://coding.net/u/Chris_Zheng/p/Blog/git
+    url: https://gitee.com/chriszheng/Blog
   - title: 我的配置文件
-    url: https://coding.net/u/Chris_Zheng/p/dotEmacs/git
+    url: https://gitee.com/chriszheng/dotEmacs
   - title: M-x Chris-An-Emacser
     url: https://chriszheng.science/
   - title: OSChina上的镜像
     url: http://chriszheng.oschina.io/
   - title: OSChina上的镜像
     url: http://chriszheng.gitee.io/
+  - title: GitHub上的镜像
+    url: https://zklhp.github.io/
   - title: "@chriszheng@mastodon.sdf.org"
     url: https://mastodon.sdf.org/@chriszheng
+    rel: me
   - title: Emacsist
     url: http://emacsist.com/
   - title: 璀璨星空
@@ -173,8 +174,3 @@ css: css
 
 # Theme version
 version: 0.0.0
-
-post_copyright:
-  enable: false
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0/deed.zh
