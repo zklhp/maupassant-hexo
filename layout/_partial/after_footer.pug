@@ -1,9 +1,7 @@
 if theme.fancybox == true
-  // script(type='text/javascript', src='//cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js', async)
+  script(type='text/javascript', src='//cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js', async)
   script(type='text/javascript')
-    include jquery.fancybox.min.js
-  script(type='text/javascript')
-    include fancybox.js
+    include fancybox.min.js
   link(rel='stylesheet', type='text/css', href='//cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css')
 
 if theme.tinysou
@@ -33,7 +31,7 @@ if theme.swiftype
 
 if theme.self_search == true
   script(type='text/javascript')
-    include search.js
+    include search.min.js
   script.
      var search_path = '#{config.search.path}';
      if (search_path.length == 0) {
@@ -59,6 +57,6 @@ if theme.busuanzi == true
   script(src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js', async)
 
 script(type='text/javascript')
-  include codeblock-resizer.js
+  include codeblock-resizer.min.js
 script(type='text/javascript')
-  include smartresize.js
+  include smartresize.min.js

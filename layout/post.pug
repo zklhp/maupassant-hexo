@@ -76,7 +76,7 @@ block content
 
     if theme.shareto == true
       script(type='text/javascript')
-        include share.js
+        include share.min.js
       a.article-share-link(data-url=page.permalink, data-id=page._id, data-qrcode=qrcode(page.permalink))= __('shareto')
 
     include _partial/tag.pug
