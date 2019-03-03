@@ -125,6 +125,8 @@ links:
     url: http://emacs-china.org/
   - title: emacs-china/blogroll
     url: https://github.com/emacs-china/blogroll
+  - title: 优质的「独立中文博客」订阅列表
+    url: https://github.com/RSS-Renaissance/awesome-blogCN-feeds
   # - title: 笔良文昌
   #   url: http://tian1.me/
   - title: 简单可依赖
