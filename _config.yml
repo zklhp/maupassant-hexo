@@ -107,6 +107,10 @@ links:
   - title: "@chriszheng@mastodon.sdf.org"
     url: https://mastodon.sdf.org/@chriszheng
     rel: me
+  - title: emacs-china/blogroll
+    url: https://github.com/emacs-china/blogroll
+  - title: 优质的「独立中文博客」订阅列表
+    url: https://github.com/RSS-Renaissance/awesome-blogCN-feeds
   - title: Emacsist
     url: http://emacsist.com/
   - title: 璀璨星空
@@ -115,28 +119,24 @@ links:
     url: http://www.geekplux.com/
   - title: lijigang
     url: http://www.lijigang.com/
-  - title: codefalling
-    url: http://codefalling.com/
+  # - title: codefalling
+  #   url: http://codefalling.com/
   - title: 子龙山人
     url: http://zilongshanren.com/
   - title: Kelvin的胡言乱语
     url: http://kelvinh.github.io/
   - title: Emacs China
     url: http://emacs-china.org/
-  - title: emacs-china/blogroll
-    url: https://github.com/emacs-china/blogroll
-  - title: 优质的「独立中文博客」订阅列表
-    url: https://github.com/RSS-Renaissance/awesome-blogCN-feeds
   # - title: 笔良文昌
   #   url: http://tian1.me/
   - title: 简单可依赖
-    url: https://www.tiexo.cn/
+    url: https://tiexo.github.io/
   - title: Jet’s Notes
     url: http://jetyu.me/
-  - title: Raintone
-    url: http://login926.top/
-  - title: LAW GEEK
-    url: http://lawgeek.info/
+  # - title: Raintone
+  #   url: http://login926.top/
+  # - title: LAW GEEK
+  #   url: http://lawgeek.info/
   - title: 计算化学公社(含推广)
     url: http://bbs.keinsci.com/?fromuid=4772
   - title: 狐吧
@@ -147,8 +147,8 @@ links:
     url: https://urzz.me/
   - title: 红炉点雪
     url: http://hongludianxue.com/
-  - title: 乐趣公园
-    url: http://googlo.me/
+  # - title: 乐趣公园
+  #   url: http://googlo.me/
   - title: MacPlay
     url: https://macplay.github.io/
   - title: 深度识医
@@ -157,6 +157,8 @@ links:
     url: http://kevinjiang.info/
   - title: QQ群友「七月流火」的Blog
     url: https://www.jianshu.com/u/390b177189f0
+  - title: 小焱
+    url: http://xiaoyan.work/
   - title: SDF公众Unix服务器中文站
     url: http://sdf-cn.org/
 
