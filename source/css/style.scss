@@ -575,8 +575,11 @@ blockquote,.stressed {
     color: #555;
     border-left: none;
     cite::before {
-            content: "—";
-            padding: 0 0.3em;
+        content: "—";
+        padding: 0 0.3em;
+    }
+    cite {
+	font-style: normal;
     }
 }
 
