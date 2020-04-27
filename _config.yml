@@ -94,7 +94,7 @@ links:
     url: http://www.vultr.com/?ref=7184966
   - title: 帖子的md文件
     url: https://gitee.com/chriszheng/Blog
-  - title: 我的配置文件
+  - title: 我的Emacs配置
     url: https://gitee.com/chriszheng/dotEmacs
   - title: M-x Chris-An-Emacser
     url: https://chriszheng.science/
@@ -111,8 +111,10 @@ links:
     url: https://github.com/emacs-china/blogroll
   - title: 优质的「独立中文博客」订阅列表
     url: https://github.com/RSS-Renaissance/awesome-blogCN-feeds
-  - title: Emacsist
-    url: http://emacsist.com/
+  # - title: Emacsist
+  #   url: http://emacsist.com/
+  - title: NIL
+    url: https://cireu.github.io/
   - title: 璀璨星空
     url: http://jerry011235.github.io/
   - title: GeekPlux
@@ -123,6 +125,8 @@ links:
   #   url: http://codefalling.com/
   - title: 子龙山人
     url: http://zilongshanren.com/
+  - title: 暗无天日
+    url: http://blog.lujun9972.win/
   - title: Kelvin的胡言乱语
     url: http://kelvinh.github.io/
   - title: Emacs China
@@ -157,6 +161,8 @@ links:
     url: http://kevinjiang.info/
   - title: QQ群友「七月流火」的Blog
     url: https://www.jianshu.com/u/390b177189f0
+  - title: 低头族
+    url: https://ditou.org/
   - title: 小焱
     url: http://xiaoyan.work/
   - title: SDF公众Unix服务器中文站
