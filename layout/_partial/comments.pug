@@ -1,40 +1,17 @@
 if theme.disqus
   #disqus_thread
-    .btn_click_load
-      button.disqus_click_btn 阅读评论（请确保 Disqus 可以正常加载）
+    script(type='text/javascript' src=url_for(theme.js)+'/disqus.js')
     script(type='text/javascript').
-      var disqus_config = function () {
-          this.page.url = '#{config.url}/#{page.path}';
-          this.page.identifier = '#{page.path}';
-          this.page.title = '#{page.title}';
-        };
-    script(type='text/javascript' id='disqus-lazy-load-script').
-      $.ajax({
-      url: 'https://disqus.com/next/config.json',
-      timeout: 2500,
-      type: 'GET',
-      success: function(){
-        var d = document;
-        var s = d.createElement('script');
-        s.src = '//#{theme.disqus}.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', + new Date());
-        (d.head || d.body).appendChild(s);
-        $('.disqus_click_btn').css('display', 'none');
-      },
-      error: function() {
-        $('.disqus_click_btn').css('display', 'block');
-      }
-      });
-    script(type='text/javascript' id='disqus-click-load').
-      $('.btn_click_load').click(() => {  //click to load comments
-          (() => { // DON'T EDIT BELOW THIS LINE
-              var d = document;
-              var s = d.createElement('script');
-              s.src = '//#{theme.disqus}.disqus.com/embed.js';
-              s.setAttribute('data-timestamp', + new Date());
-              (d.head || d.body).appendChild(s);
-          })();
-          $('.disqus_click_btn').css('display','none');
+      var dsqjs = new DisqusJS({
+        shortname: '#{theme.disqus}',
+        siteName: '#{config.title}',
+        identifier: '#{page.path}',
+        url: '#{config.url}/#{page.path}',
+        title: '#{page.title}',
+        api: '#{theme.disqusjs.api}',
+        apikey: '#{theme.disqusjs.apikey}',
+        admin: '#{theme.disqusjs.admin}',
+        adminLabel: '#{theme.disqusjs.adminLabel}'
       });
     script(type='text/javascript' id='disqus-count-script').
       $(function() {

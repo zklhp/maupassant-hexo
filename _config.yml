@@ -1,4 +1,9 @@
 disqus: chris-an-emacser ## Your disqus_shortname, e.g. username
+disqusjs:
+   api: https://disqus.skk.moe/disqus/
+   apikey: jVxAv28vcEwlLnAb7eXSz5hvxRT0o4VPX50vlpmCrxFzDZB4diszy8SS0a9yBJAT
+   admin: disqus_5MXlSWVCDu
+   adminLabel: Mod
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8

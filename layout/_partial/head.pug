@@ -10,18 +10,20 @@ head
     link(rel='stylesheet', type='text/css', href='//cdnjs.loli.net/ajax/libs/normalize/8.0.1/normalize.min.css')
     link(rel='stylesheet', type='text/css', href='//cdnjs.loli.net/ajax/libs/pure/1.0.0/pure-min.css')
     link(rel='stylesheet', type='text/css', href='//cdnjs.loli.net/ajax/libs/pure/1.0.0/grids-responsive-min.css')
-    link(rel='stylesheet', href='//cdnjs.loli.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='//cdnjs.loli.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
     script(type='text/javascript', src='//cdnjs.loli.net/ajax/libs/jquery/3.4.0/jquery.min.js')
-    script.
+    script(type='text/javascript').
       if (!window.jQuery) {
         document.write(decodeURI('%3Cscript src="/js/jquery.min.js" type="text/javascript"%3E%3C/script%3E'));
         document.write('<link rel="stylesheet" type="text/css" href="/css/normalize.min.css"/>');
         document.write('<link rel="stylesheet" type="text/css" href="/css/pure-min.css"/>');
         document.write('<link rel="stylesheet" type="text/css" href="/css/grids-responsive-min.css"/>');
-        document.write('<link rel="stylesheet" href="/css/font-awesome.min.css"/>');
+        document.write('<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css"/>');
       }
     if theme.dark == true
         link(rel='stylesheet', type='text/css', href=url_for(theme.css)+'/dark.css' + '?v=' + theme.version)
+    if theme.disqus
+        link(rel='stylesheet', type='text/css', href=url_for(theme.css)+'/disqusjs.css')
     link(rel='icon', mask='',sizes='any', href=url_for('favicon.ico'))
     link(rel='Shortcut Icon', type='image/x-icon', href=url_for('favicon.ico'))
     link(rel='apple-touch-icon', href=url_for('apple-touch-icon.png'))
