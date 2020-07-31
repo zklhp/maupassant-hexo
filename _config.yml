@@ -135,6 +135,8 @@ links:
     url: https://cireu.github.io/
   - title: 璀璨星空
     url: http://jerry011235.github.io/
+  - title: Funix's blog
+    url: https://funix.cn/
   - title: GeekPlux
     url: http://www.geekplux.com/
   - title: lijigang
@@ -161,8 +163,8 @@ links:
   #   url: http://lawgeek.info/
   - title: 计算化学公社(含推广)
     url: http://bbs.keinsci.com/?fromuid=4772
-  - title: 狐吧
-    url: http://tieba.baidu.com/f?kw=firefox&ie=utf-8
+  # - title: 狐吧
+  #   url: http://tieba.baidu.com/f?kw=firefox&ie=utf-8
   - title: Chem_peng
     url: https://chempeng.github.io/
   - title: 瘫曲的Blog
