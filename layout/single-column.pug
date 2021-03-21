@@ -18,8 +18,9 @@ block content
     .post-content
       != page.content
     if theme.shareto
-      script(type='text/javascript', src=url_for(theme.js) + '/share.js' + '?v=' + theme.version, async)
-      a.article-share-link(data-url='#{page.permalink}', data-id='#{page._id}', data-qrcode=qrcode(page.permalink))= __('shareto')
+      script(type='text/javascript')
+        include share.min.js
+      a.article-share-link(data-url=page.permalink, data-id=page._id, data-qrcode=qrcode(page.permalink))= __('shareto')
 
   if page.comments
     include _partial/comments.pug
